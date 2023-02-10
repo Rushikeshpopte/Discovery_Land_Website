@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+li, ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.navanchor{
+    color: rgb(255, 255, 255);
+}
+#navigation{
+    display: flex;
+    justify-content: end;
+}
+#mainheader{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    height: 200px;
+    background-color: black;
+}
+#logo{
+
+    position: absolute;
+    left: 6%;
+    top:8%;
+}
+.maincontent{
+   display: flex;
+   flex-wrap: wrap;
+    
+    
+}
+.rowcontent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.element{
+
+    width: 24%;
+    padding: 0.5%;
+}
+h1{
+    color: #fff;
+    font-family: messina-sans;
+    font-size: .85rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+p{
+    font-size: .9rem;
+    color: #777;
+}
+
+
+
+footer{
+    display: block;
+    background-color: #161f1e;
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+#mainfooter{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* padding: 5%; */
+}
+nav{
+    display: flex;
+}
+
+.footerclass{
+    position: relative;
+    overflow: hidden;
+}
+.footerUL{
+
+    display: inline;
+
+}
+
+.footercontent{
+    display: flex;
+    position: relative;
+
+}
+.footerUL li{
+padding: 10%;
+}
+
+#logodis{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+#copyright{
+
+    color: rgb(147, 147, 147);
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+
+@media screen  and (max-width: 600px){
+
+    .element{
+        width: 100%;
+    }
+    
+    }

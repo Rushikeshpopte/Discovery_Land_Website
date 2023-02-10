@@ -45,50 +45,6 @@ a {
     color: rgb(255, 255, 255);
 }
 
-footer {
-    display: block;
-    background-color: #161f1e;
-    position: relative;
-    width: 100%;
-    margin-bottom: 5px;
-
-}
-
-#mainfooter {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    padding: 5%;
-}
-
-nav {
-    display: flex;
-}
-
-.footerclass {
-    position: relative;
-    overflow: hidden;
-}
-
-.footerUL {
-
-    display: inline;
-
-}
-
-.footercontent {
-    display: flex;
-    position: relative;
-
-}
-
-.footerUL li {
-    padding: 10px;
-}
-
 .mainarticle {
 
     margin: 0%;
@@ -103,7 +59,7 @@ nav {
 }
 
 .bodysub {
-    width: 33%;
+    width: 33.33%;
     margin: 0%;
     padding: 0%;
     background-color: black;
@@ -148,6 +104,58 @@ h2 {
     bottom: 10%;
     left: 5%;
 }
+
+footer {
+    background-color: #161f1e;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 12% 1% 12% 11%;
+  }
+  
+  .mainfooter {
+  
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+    padding-left: 3%;
+  }
+  
+  
+  .navanchor {
+    color: rgb(255, 255, 255);
+  
+    padding: 3px;
+  }
+  
+  #firstdiv {
+    margin-right: 10%;
+  }
+  
+  #get {
+    color: darkgrey;
+    font-size: small;
+    font-weight: bold;
+  }
+  
+  #logo1 {
+    position: absolute;
+    bottom: 60%;
+    left: 7%;
+  }
+  
+  #copyright {
+  
+    color: darkgray;
+    position: absolute;
+    bottom: 17%;
+    left: 6%;
+    font-size: small;
+  
+  }
 
 
 
